@@ -1,0 +1,1304 @@
+fileFormatVersion: 2
+guid: ef3cc032778943f4caefc41ae4688921
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: idle
+  - first:
+      74: 2021704990207333771
+    second: runForward
+  - first:
+      74: 5738399526855574895
+    second: runBack
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'gameAsset:bn_l_elbow_b01' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'gameAsset:bn_r_elbow_b01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'gameAsset:bn_l_knee_b01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'gameAsset:bn_r_knee_b01'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runForward
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 51
+      lastFrame: 71
+      wrapMode: 0
+      orientationOffsetY: -32.1
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runBack
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 72
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: gameAsset:bn_spA01
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_thigh01
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_thigh01
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_knee_a01
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_knee_a01
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_foot01
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_foot01
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_spB01
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_spC01
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_neck01
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_head01
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_shld01
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_shld01
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_arm01
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_arm01
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_elbow_a01
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_elbow_a01
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_wrist01
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_wrist01
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ball01
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ball01
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_brow01
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_thumb_a01
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_thumb_b01
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_thumb_c01
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ind_a01
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ind_b01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ind_c01
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_mid_a01
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_mid_b01
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_mid_c01
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ring_a01
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ring_b01
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_ring_c01
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_pinky_a01
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_pinky_b01
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_l_pinky_c01
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_thumb_a01
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_thumb_b01
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_thumb_c01
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ind_a01
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ind_b01
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ind_c01
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_mid_a01
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_mid_b01
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_mid_c01
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ring_a01
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ring_b01
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_ring_c01
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_pinky_a01
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_pinky_b01
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_r_pinky_c01
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: gameAsset:bn_spD01
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: FBX_Biker(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:biker
+      parentName: FBX_Biker(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:globalMove01
+      parentName: gameAsset:biker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: gameAsset:joints01
+      parentName: gameAsset:globalMove01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntDrv_spA01
+      parentName: gameAsset:joints01
+      position: {x: 0.006413446, y: 2.6878, z: 0.1087934}
+      rotation: {x: -0.5378174, y: 0.46069148, z: -0.49755523, w: 0.5009537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntDrv_spB01
+      parentName: gameAsset:jntDrv_spA01
+      position: {x: -0.491255, y: 0, z: 1.0908052e-16}
+      rotation: {x: -5.74804e-11, y: 0.029188765, z: 0.044487964, w: 0.99858344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntDrv_spC01
+      parentName: gameAsset:jntDrv_spB01
+      position: {x: -0.491255, y: 1.3877788e-17, z: 1.0908052e-16}
+      rotation: {x: -4.2390264e-10, y: 0.06327909, z: 0.095435254, w: 0.9934223}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntDrv_spD01
+      parentName: gameAsset:jntDrv_spC01
+      position: {x: -0.491255, y: -1.3877788e-17, z: 1.0908052e-16}
+      rotation: {x: 7.775105e-11, y: 0.05643523, z: 0.08459031, w: 0.99481636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntDrv_spE01
+      parentName: gameAsset:jntDrv_spD01
+      position: {x: -0.491255, y: 0, z: 1.0908052e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_locAim_bn_spD01
+      parentName: gameAsset:jntDrv_spD01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.2897666, y: 0, z: -0, w: 0.95709735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locAim_bn_spD01
+      parentName: gameAsset:grp_locAim_bn_spD01
+      position: {x: -0, y: -1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_locAim_bn_spC01
+      parentName: gameAsset:jntDrv_spC01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.2736085, y: 0, z: -0, w: 0.96184117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locAim_bn_spC01
+      parentName: gameAsset:grp_locAim_bn_spC01
+      position: {x: -0, y: -1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_locAim_bn_spB01
+      parentName: gameAsset:jntDrv_spB01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.26550004, y: 0, z: -0, w: 0.96411085}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locAim_bn_spB01
+      parentName: gameAsset:grp_locAim_bn_spB01
+      position: {x: -0, y: -1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_locAim_bn_spA01
+      parentName: gameAsset:jntDrv_spA01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.2573728, y: 0, z: -0, w: 0.9663122}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locAim_bn_spA01
+      parentName: gameAsset:grp_locAim_bn_spA01
+      position: {x: -0, y: -1, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:jntRoot_player01
+      parentName: gameAsset:joints01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 2, y: 2, z: 2}
+    - name: gameAsset:trnsPrsv_bn_spA01
+      parentName: gameAsset:jntRoot_player01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: gameAsset:bn_spA01
+      parentName: gameAsset:trnsPrsv_bn_spA01
+      position: {x: 0.006413445, y: 2.903368, z: 0.1087935}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_spB01
+      parentName: gameAsset:bn_spA01
+      position: {x: -0.491255, y: -3.8857806e-16, z: -8.326673e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_spC01
+      parentName: gameAsset:bn_spB01
+      position: {x: -0.491255, y: -6.5225603e-16, z: 2.070219e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_spD01
+      parentName: gameAsset:bn_spC01
+      position: {x: -0.491255, y: -4.440892e-16, z: 3.1346453e-15}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_spE01
+      parentName: gameAsset:bn_spD01
+      position: {x: -0.491255, y: -4.440892e-16, z: 1.2247148e-14}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_neck01
+      parentName: gameAsset:be_spE01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.11330309, w: 0.9935605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_head01
+      parentName: gameAsset:bn_neck01
+      position: {x: -0.24114648, y: -2.220446e-16, z: -2.4651903e-32}
+      rotation: {x: 0, y: 0, z: 0.13197158, w: 0.99125355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_head01
+      parentName: gameAsset:bn_head01
+      position: {x: -0.5181046, y: 4.440892e-16, z: 1.5049524e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_brow01
+      parentName: gameAsset:bn_head01
+      position: {x: -0.26795924, y: -0.09892739, z: 0.0948482}
+      rotation: {x: 0, y: 0, z: 0.880536, w: -0.47397926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_brow01
+      parentName: gameAsset:bn_r_brow01
+      position: {x: 0.13129072, y: 0.00000043245117, z: 1.3877788e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_brow01
+      parentName: gameAsset:bn_head01
+      position: {x: -0.26795787, y: -0.09892853, z: -0.09484817}
+      rotation: {x: 0, y: 0, z: 0.47397923, w: 0.880536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_brow01
+      parentName: gameAsset:bn_l_brow01
+      position: {x: -0.13129057, y: -8.881784e-16, z: 8.745709e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_shld01
+      parentName: gameAsset:bn_spD01
+      position: {x: -0.32396504, y: 0.104586, z: 0.183235}
+      rotation: {x: -0.61739385, y: -0.44617844, z: -0.39914095, w: 0.5103295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_shld01
+      parentName: gameAsset:bn_r_shld01
+      position: {x: 0.43430164, y: 0.0000051923707, z: 0.000003726911}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_arm01
+      parentName: gameAsset:be_r_shld01
+      position: {x: 6.661338e-16, y: 8.881784e-16, z: -6.938894e-18}
+      rotation: {x: -0.17233136, y: 0.12611601, z: -0.15313764, w: 0.9648552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_elbow_a01
+      parentName: gameAsset:bn_r_arm01
+      position: {x: 0.8591392, y: -0.0000074866675, z: -0.0000004976102}
+      rotation: {x: 0.10364117, y: 0.014359323, z: 0.025723206, w: 0.9941784}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_elbow_b01
+      parentName: gameAsset:bn_r_elbow_a01
+      position: {x: 0.06375176, y: 0.000006872512, z: 0.0000007322263}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_wrist01
+      parentName: gameAsset:bn_r_elbow_b01
+      position: {x: 0.74252576, y: -0.000003108938, z: -0.0000010656527}
+      rotation: {x: 0.14325929, y: -0, z: -0, w: 0.98968524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_thumb_a01
+      parentName: gameAsset:bn_r_wrist01
+      position: {x: 0.13680184, y: 0.037370946, z: -0.08002905}
+      rotation: {x: -0.043287404, y: 0.46692196, z: 0.10118741, w: 0.87742305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_thumb_b01
+      parentName: gameAsset:bn_r_thumb_a01
+      position: {x: 0.17614388, y: 0.0020758493, z: 0.015030658}
+      rotation: {x: -0.12615056, y: -0.07451271, z: 0.0067673293, w: 0.9891856}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_thumb_c01
+      parentName: gameAsset:bn_r_thumb_b01
+      position: {x: 0.08388663, y: 0.0000009050505, z: 0.000002357126}
+      rotation: {x: -0.0059070042, y: -0.008078043, z: -0.033636454, w: 0.99938405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_thumb_d01
+      parentName: gameAsset:bn_r_thumb_c01
+      position: {x: 0.13041857, y: 0.01047274, z: 0.006522044}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ring_a01
+      parentName: gameAsset:bn_r_wrist01
+      position: {x: 0.36261922, y: 0.084777445, z: 0.066896245}
+      rotation: {x: -0.059712984, y: -0.00006557627, z: 0.14857589, w: 0.9870966}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ring_b01
+      parentName: gameAsset:bn_r_ring_a01
+      position: {x: 0.089952, y: -0.0000024736498, z: 0.0000070396522}
+      rotation: {x: 0.002135336, y: 0.008370778, z: 0.06787199, w: 0.9976567}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ring_c01
+      parentName: gameAsset:bn_r_ring_b01
+      position: {x: 0.100128934, y: -0.00704682, z: 0.0020060814}
+      rotation: {x: 0.0031561449, y: -0.010320612, z: -0.086128354, w: 0.9962256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_ring_d01
+      parentName: gameAsset:bn_r_ring_c01
+      position: {x: 0.101846255, y: 0.016082596, z: -0.00028113832}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_pinky_a01
+      parentName: gameAsset:bn_r_wrist01
+      position: {x: 0.3395084, y: 0.12652653, z: 0.13699785}
+      rotation: {x: -0.20616584, y: -0.0139136845, z: 0.1455031, w: 0.96753854}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_pinky_b01
+      parentName: gameAsset:bn_r_pinky_a01
+      position: {x: 0.072391964, y: -0.000002467479, z: 0.000002775262}
+      rotation: {x: 0.0029515629, y: 0.015071042, z: 0.02980833, w: 0.9994377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_pinky_c01
+      parentName: gameAsset:bn_r_pinky_b01
+      position: {x: 0.08896479, y: 0.00066458166, z: 0.0032288095}
+      rotation: {x: 0.04190316, y: 0.07684984, z: -0.028743055, w: 0.99574697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_pinky_d01
+      parentName: gameAsset:bn_r_pinky_c01
+      position: {x: 0.07808878, y: 0.009545221, z: 0.01535899}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_mid_a01
+      parentName: gameAsset:bn_r_wrist01
+      position: {x: 0.36484894, y: 0.05154623, z: -0.019666873}
+      rotation: {x: 0.021918463, y: -0.0026069502, z: 0.11723292, w: 0.9928591}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_mid_b01
+      parentName: gameAsset:bn_r_mid_a01
+      position: {x: 0.09914907, y: 0.0000002440546, z: -0.0000018586205}
+      rotation: {x: -0.002160819, y: -0.00915438, z: 0.055810105, w: 0.9983972}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_mid_c01
+      parentName: gameAsset:bn_r_mid_b01
+      position: {x: 0.124531396, y: -0.005685319, z: -0.002722464}
+      rotation: {x: -0.008593245, y: -0.0110400915, z: 0.0002530005, w: 0.9999021}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_mid_a01
+      parentName: gameAsset:bn_r_mid_c01
+      position: {x: 0.102548055, y: 0.0014702647, z: -0.004816706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ind_a01
+      parentName: gameAsset:bn_r_wrist01
+      position: {x: 0.34881967, y: 0.052351214, z: -0.11635907}
+      rotation: {x: 0.09208607, y: 0.07151329, z: 0.13160415, w: 0.98442185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ind_b01
+      parentName: gameAsset:bn_r_ind_a01
+      position: {x: 0.09898405, y: -0.0000010416389, z: -0.0000051548113}
+      rotation: {x: -0.0024007405, y: -0.022839272, z: -0.16846244, w: 0.98544055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ind_c01
+      parentName: gameAsset:bn_r_ind_b01
+      position: {x: 0.09209832, y: 0.038416512, z: -0.0048216255}
+      rotation: {x: -0.004981128, y: -0.014412803, z: 0.22169918, w: 0.9749959}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_ind_d01
+      parentName: gameAsset:bn_r_ind_c01
+      position: {x: 0.1049723, y: 0.0021379094, z: -0.008648677}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_forearmTwist_c01
+      parentName: gameAsset:bn_r_elbow_b01
+      position: {x: 0.74252456, y: 0.0000053283525, z: -0.0000031009208}
+      rotation: {x: -0.43768513, y: -0.090423934, z: 0.032706026, w: 0.8939718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_forearmTwist_b01
+      parentName: gameAsset:bn_r_elbow_b01
+      position: {x: 0.44498664, y: -0.0000027431824, z: -0.0000036630022}
+      rotation: {x: 0.0000387628, y: -0.0000016367446, z: 0.000012459272, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_forearmTwist_a01
+      parentName: gameAsset:bn_r_elbow_b01
+      position: {x: 0.19391775, y: -0.00000914374, z: -0.0000044850412}
+      rotation: {x: 0.0000387628, y: -0.0000016367446, z: 0.000012459272, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_armTwist_c01
+      parentName: gameAsset:bn_r_arm01
+      position: {x: 0.674517, y: -0.000010103012, z: -0.000003870615}
+      rotation: {x: 0.000039968676, y: 0.0000028164209, z: -0.000006511629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_armTwist_b01
+      parentName: gameAsset:bn_r_arm01
+      position: {x: 0.3556897, y: -0.000009210077, z: -0.0000016883097}
+      rotation: {x: 0.000039968676, y: 0.0000028164209, z: -0.000006511629, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_armTwist_a01
+      parentName: gameAsset:bn_r_arm01
+      position: {x: -8.881784e-16, y: 1.3322676e-15, z: -1.2143064e-17}
+      rotation: {x: 0.026682643, y: 0.035829157, z: -0.4052478, w: 0.9131148}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_shld01
+      parentName: gameAsset:bn_spD01
+      position: {x: -0.32396144, y: 0.104586, z: -0.18323492}
+      rotation: {x: -0.44617593, y: 0.6173973, z: -0.5103314, w: -0.39913595}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_shld01
+      parentName: gameAsset:bn_l_shld01
+      position: {x: -0.4342992, y: 0.0000009501978, z: -0.0000035484231}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_arm01
+      parentName: gameAsset:be_l_shld01
+      position: {x: 2.220446e-16, y: 0, z: -4.1633363e-17}
+      rotation: {x: -0.17233148, y: 0.12611985, z: -0.15314732, w: 0.9648531}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_elbow_a01
+      parentName: gameAsset:bn_l_arm01
+      position: {x: -0.85914284, y: 4.440892e-16, z: -1.9428903e-16}
+      rotation: {x: 0.10364111, y: 0.01435794, z: 0.025726693, w: 0.9941783}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_elbow_b01
+      parentName: gameAsset:bn_l_elbow_a01
+      position: {x: -0.063747585, y: -4.440892e-16, z: 1.9428903e-16}
+      rotation: {x: -1.06799034e-17, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_wrist01
+      parentName: gameAsset:bn_l_elbow_b01
+      position: {x: -0.7425275, y: 0, z: -1.110223e-16}
+      rotation: {x: 0.14325929, y: -0, z: -0, w: 0.98968524}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_thumb_a01
+      parentName: gameAsset:bn_l_wrist01
+      position: {x: -0.13680482, y: -0.037371777, z: 0.0800276}
+      rotation: {x: -0.043288037, y: 0.46692306, z: 0.10118745, w: 0.87742245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_thumb_b01
+      parentName: gameAsset:bn_l_thumb_a01
+      position: {x: -0.17613834, y: -0.002076388, z: -0.015029614}
+      rotation: {x: -0.12615006, y: -0.07452463, z: 0.0067766616, w: 0.98918474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_thumb_c01
+      parentName: gameAsset:bn_l_thumb_b01
+      position: {x: -0.08389187, y: 0, z: 6.661338e-16}
+      rotation: {x: -0.005908323, y: -0.008075555, z: -0.033646356, w: 0.99938375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_thumb_d01
+      parentName: gameAsset:bn_l_thumb_c01
+      position: {x: -0.13041492, y: -0.010474073, z: -0.0065191826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ring_a01
+      parentName: gameAsset:bn_l_wrist01
+      position: {x: -0.3626204, y: -0.08477663, z: -0.06690169}
+      rotation: {x: -0.05971434, y: -0.00007980876, z: 0.14857218, w: 0.9870971}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ring_b01
+      parentName: gameAsset:bn_l_ring_a01
+      position: {x: -0.089950524, y: -1.110223e-16, z: -8.881784e-16}
+      rotation: {x: 0.0021358724, y: 0.008429983, z: 0.06790567, w: 0.9976539}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ring_c01
+      parentName: gameAsset:bn_l_ring_b01
+      position: {x: -0.10012993, y: 0.007049902, z: -0.0020123788}
+      rotation: {x: 0.0031666758, y: -0.010352705, z: -0.086170115, w: 0.9962217}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_ring_d01
+      parentName: gameAsset:bn_l_ring_c01
+      position: {x: -0.1018435, y: -0.016086876, z: 0.0002818469}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_pinky_a01
+      parentName: gameAsset:bn_l_wrist01
+      position: {x: -0.33951387, y: -0.12652776, z: -0.1370015}
+      rotation: {x: -0.20616893, y: -0.0139271915, z: 0.14549728, w: 0.96753865}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_pinky_b01
+      parentName: gameAsset:bn_l_pinky_a01
+      position: {x: -0.072389975, y: 0, z: -4.440892e-16}
+      rotation: {x: 0.0029467184, y: 0.015086179, z: 0.029796777, w: 0.99943775}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_pinky_c01
+      parentName: gameAsset:bn_l_pinky_b01
+      position: {x: -0.088961676, y: -0.00066820055, z: -0.0032273927}
+      rotation: {x: 0.04189484, y: 0.07685509, z: -0.028695365, w: 0.99574834}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_pinky_d01
+      parentName: gameAsset:bn_l_pinky_c01
+      position: {x: -0.07808961, y: -0.009540836, z: -0.015359203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_mid_a01
+      parentName: gameAsset:bn_l_wrist01
+      position: {x: -0.36484796, y: -0.051546462, z: 0.019668536}
+      rotation: {x: 0.021918463, y: -0.0026069502, z: 0.11723292, w: 0.9928591}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_mid_b01
+      parentName: gameAsset:bn_l_mid_a01
+      position: {x: -0.09915482, y: -2.220446e-16, z: 8.881784e-16}
+      rotation: {x: -0.0021597145, y: -0.009164722, z: 0.05580095, w: 0.9983975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_mid_c01
+      parentName: gameAsset:bn_l_mid_b01
+      position: {x: -0.12452378, y: 0.0056826505, z: 0.002722698}
+      rotation: {x: -0.0085850805, y: -0.011014259, z: 0.00028223445, w: 0.9999025}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_mid_a01
+      parentName: gameAsset:bn_l_mid_c01
+      position: {x: -0.10255127, y: -0.0014661237, z: 0.0048107975}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ind_a01
+      parentName: gameAsset:bn_l_wrist01
+      position: {x: -0.34881854, y: -0.0523512, z: 0.11636244}
+      rotation: {x: 0.09208607, y: 0.07151329, z: 0.13160415, w: 0.98442185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ind_b01
+      parentName: gameAsset:bn_l_ind_a01
+      position: {x: -0.09898874, y: -3.330669e-16, z: 8.881784e-16}
+      rotation: {x: -0.002386838, y: -0.022844462, z: -0.16845433, w: 0.98544186}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ind_c01
+      parentName: gameAsset:bn_l_ind_b01
+      position: {x: -0.09209803, y: -0.03841638, z: 0.004818197}
+      rotation: {x: -0.0049773403, y: -0.014432283, z: 0.22167507, w: 0.97500104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_ind_d01
+      parentName: gameAsset:bn_l_ind_c01
+      position: {x: -0.10496797, y: -0.002142126, z: 0.008649973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_forearmTwist_c01
+      parentName: gameAsset:bn_l_elbow_b01
+      position: {x: -0.7425275, y: -0.0000059265767, z: 0.0000014443569}
+      rotation: {x: -0.43772456, y: -0.090416476, z: 0.03270352, w: 0.8939533}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_forearmTwist_b01
+      parentName: gameAsset:bn_l_elbow_b01
+      position: {x: -0.4449884, y: -0.000003551731, z: 0.0000008655869}
+      rotation: {x: -0.0000045800184, y: 0.0000009725767, z: 0.0000039908173, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_forearmTwist_a01
+      parentName: gameAsset:bn_l_elbow_b01
+      position: {x: -0.19391869, y: -0.0000015477865, z: 0.00000037720866}
+      rotation: {x: -0.0000045800184, y: 0.0000009725767, z: 0.0000039908173, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_armTwist_c01
+      parentName: gameAsset:bn_l_arm01
+      position: {x: -0.6745183, y: -0.00000016550044, z: -0.0000011398575}
+      rotation: {x: -0.0000025641764, y: -0.00000084494224, z: 0.00000012267832, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_armTwist_b01
+      parentName: gameAsset:bn_l_arm01
+      position: {x: -0.35569543, y: -0.00000008727377, z: -0.00000060108397}
+      rotation: {x: -0.0000025641764, y: -0.00000084494224, z: 0.00000012267832, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_armTwist_a01
+      parentName: gameAsset:bn_l_arm01
+      position: {x: -4.440892e-16, y: -8.881784e-16, z: 8.673617e-18}
+      rotation: {x: 0.02664505, y: 0.035808753, z: -0.40524313, w: 0.9131187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_thigh01
+      parentName: gameAsset:bn_spA01
+      position: {x: 4.440892e-16, y: 5.551115e-17, z: 0.25091}
+      rotation: {x: 0.0009114366, y: -0.03052491, z: -0.029831557, w: 0.99908835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_knee_a01
+      parentName: gameAsset:bn_r_thigh01
+      position: {x: 1.2047594, y: 0.00000020664169, z: 0.00000022522909}
+      rotation: {x: 0.0050720605, y: 0.0005795719, z: 0.1135273, w: 0.9935218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_knee_b01
+      parentName: gameAsset:bn_r_knee_a01
+      position: {x: 0.17888248, y: -0.0000023728294, z: -0.00000004330078}
+      rotation: {x: 0.0012389201, y: 0.0002359762, z: 0.020609528, w: 0.9997868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_foot01
+      parentName: gameAsset:bn_r_knee_b01
+      position: {x: 1.118187, y: 0.00000854718, z: -0.00000015124778}
+      rotation: {x: -0.041925754, y: -0.018348841, z: -0.5151958, w: 0.85584986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_r_ball01
+      parentName: gameAsset:bn_r_foot01
+      position: {x: 0.5511702, y: 0.0000007083392, z: 0.0000033598221}
+      rotation: {x: -0.042371746, y: -0.013943376, z: -0.2587894, w: 0.96490324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_r_toe01
+      parentName: gameAsset:bn_r_ball01
+      position: {x: 0.36963403, y: 0.005363009, z: 0.0027401971}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_thigh01
+      parentName: gameAsset:bn_spA01
+      position: {x: 0.0000037472187, y: 0.00000019441305, z: -0.25091025}
+      rotation: {x: 0.03052491, y: 0.0009114363, z: 0.99908835, w: 0.029831568}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_knee_a01
+      parentName: gameAsset:bn_l_thigh01
+      position: {x: -1.204758, y: -1.110223e-16, z: 3.330669e-16}
+      rotation: {x: 0.0050720605, y: 0.0005795719, z: 0.1135273, w: 0.9935218}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_knee_b01
+      parentName: gameAsset:bn_l_knee_a01
+      position: {x: -0.17887565, y: 0.0000009361317, z: -0.000000009558402}
+      rotation: {x: 0.0012389201, y: 0.0002359762, z: 0.020609528, w: 0.9997868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_foot01
+      parentName: gameAsset:bn_l_knee_b01
+      position: {x: -1.1181917, y: -0.0000072078237, z: 0.00000009146169}
+      rotation: {x: -0.041925754, y: -0.018348841, z: -0.5151958, w: 0.85584986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:bn_l_ball01
+      parentName: gameAsset:bn_l_foot01
+      position: {x: -0.5511695, y: -0.0000006120218, z: -0.0000031643294}
+      rotation: {x: -0.042371746, y: -0.013943376, z: -0.2587894, w: 0.96490324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:be_l_toe01
+      parentName: gameAsset:bn_l_ball01
+      position: {x: -0.3696341, y: -0.0053631556, z: -0.00274013}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:iks01
+      parentName: gameAsset:globalMove01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:rp_l_leg01
+      parentName: gameAsset:iks01
+      position: {x: -0.68266046, y: 0.49020463, z: 1.0459869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:rp_r_leg01
+      parentName: gameAsset:iks01
+      position: {x: 0.5837842, y: 0.49020538, z: -0.9597934}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:spIK_spine01
+      parentName: gameAsset:iks01
+      position: {x: 0.11197221, y: 4.5909777, z: 0.35882002}
+      rotation: {x: -0.34273785, y: 0.63737357, z: -0.44745177, w: 0.52542615}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:rp_l_arm01
+      parentName: gameAsset:iks01
+      position: {x: 0.21326672, y: 3.6238952, z: 1.4041072}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:rp_r_arm01
+      parentName: gameAsset:iks01
+      position: {x: 0.6933264, y: 3.4249942, z: 0.10530151}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:controlObjects01
+      parentName: gameAsset:globalMove01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locOri_cc_r_foot01
+      parentName: gameAsset:controlObjects01
+      position: {x: 0.401872, y: 0.490205, z: -0.0855066}
+      rotation: {x: 0, y: 0.06975647, z: -0, w: 0.9975641}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:locOri_cc_l_foot01
+      parentName: gameAsset:controlObjects01
+      position: {x: -0.40187192, y: 0.49020463, z: -0.08550663}
+      rotation: {x: 0, y: -0.069755375, z: -0, w: 0.99756414}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:model01
+      parentName: gameAsset:biker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:player_geo
+      parentName: gameAsset:model01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:extraNodes01
+      parentName: gameAsset:biker
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:xtra_toShow01
+      parentName: gameAsset:extraNodes01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:xtra_toHide01
+      parentName: gameAsset:extraNodes01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_cl_crvCnt_knees01
+      parentName: gameAsset:xtra_toHide01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_l_knee_a01
+      parentName: gameAsset:grp_cl_crvCnt_knees01
+      position: {x: -0.1054602, y: 1.3397412, z: 0.11695222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_l_knee_b01
+      parentName: gameAsset:grp_cl_crvCnt_knees01
+      position: {x: -0.23616713, y: 1.3304056, z: 1.1830806}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_r_knee_b01
+      parentName: gameAsset:grp_cl_crvCnt_knees01
+      position: {x: 0.72532713, y: 0.8277986, z: 1.1629562}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_r_knee_a01
+      parentName: gameAsset:grp_cl_crvCnt_knees01
+      position: {x: 0.11187366, y: 1.3480569, z: -0.008158706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cSpl_spine01
+      parentName: gameAsset:xtra_toHide01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_cl_crvCnt_elbows01
+      parentName: gameAsset:xtra_toHide01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_l_elbow_b01
+      parentName: gameAsset:grp_cl_crvCnt_elbows01
+      position: {x: -0.66056854, y: 1.957244, z: 0.15845776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_l_elbow_a01
+      parentName: gameAsset:grp_cl_crvCnt_elbows01
+      position: {x: -0.24414188, y: 1.7785187, z: 0.5184956}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_r_elbow_b01
+      parentName: gameAsset:grp_cl_crvCnt_elbows01
+      position: {x: 0.78578335, y: 1.6515007, z: -0.7263014}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:cl_crvCnt_r_elbow_a01
+      parentName: gameAsset:grp_cl_crvCnt_elbows01
+      position: {x: 0.4399215, y: 1.853693, z: -0.30161998}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grp_weapons01
+      parentName: FBX_Biker(Clone)
+      position: {x: 0.34647927, y: 1.71263, z: 0.052231908}
+      rotation: {x: -0.008079608, y: 0.0009406287, z: 0.008162048, w: 0.9999336}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:grpAnim_weaponsPIV01
+      parentName: gameAsset:grp_weapons01
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: gameAsset:shotgun_geo
+      parentName: gameAsset:grpAnim_weaponsPIV01
+      position: {x: -0.059257917, y: 0.043288864, z: 0.520802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 100
+    rootMotionBoneName: gameAsset:biker
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
